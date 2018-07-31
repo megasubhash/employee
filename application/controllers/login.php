@@ -4,7 +4,7 @@ class Login extends CI_Controller
 
     function __construct(){
 
-
+            
         parent::__construct();
         if($this->session->userdata('validated'))
         {
@@ -50,7 +50,7 @@ class Login extends CI_Controller
         else
         {
             $msg=array(
-                $msg=>"Not exist"
+                $msg=>"Not user exist"
             );
             echo json_encode($msg);
         }
