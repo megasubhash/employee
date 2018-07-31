@@ -29,7 +29,7 @@ if(ENVIRONMENT=='development')
    
 }
 else{
-    $config['base_url'] = 'https://'.HTTP_POST.'empmanage';
+    $config['base_url'] = 'https://'.HTTP_POST.'/empmanage';
 }  
 
 /*
